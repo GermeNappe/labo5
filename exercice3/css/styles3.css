@@ -1,0 +1,51 @@
+#conteneur{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "aside dansMain"
+    "footer footer";
+
+    width: 30%;
+    height: 60%;
+  
+    gap: 5px;
+}
+
+header{
+    grid-area: header;
+    background-color: aquamarine;
+    padding: 18px;
+}
+
+nav{
+    grid-area: nav;
+    background-color: aquamarine;
+    padding: 18px;
+}
+
+aside{
+    grid-area: aside;
+    background-color: aquamarine;
+    padding: 11px;
+
+}
+
+main{
+    grid-area: dansMain;
+    background-color: aquamarine;
+    padding: 150px;
+    
+}
+
+h1{
+    text-align: left;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aquamarine;
+    padding: 18px;
+}
